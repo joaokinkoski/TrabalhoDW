@@ -1,0 +1,81 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;  
+    height: 60px;
+    background-color: #4DD21D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 2000;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  .header-image {
+    max-width: 100%;
+    height: 100px;
+}
+.Btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    position: absolute;
+    right: 2%;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: black;
+  }  
+  .sign {
+    width: 100%;
+    font-size: 2em;
+    color: white;
+    transition-duration: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 8%;
+  }
+  .text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    transition-duration: .3s;
+  }
+  .Btn:hover {
+    width: 170px;
+    border-radius: 0px;
+    transition-duration: .3s;
+  }
+  
+  .Btn:hover .sign {
+    width: 30%;
+    transition-duration: .3s;
+    padding-left: 20px;
+  }
+  .Btn:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: .3s;
+    padding-right: 20px;
+  }
+  .Btn:active {
+    transform: translate(2px ,2px);
+  }
+  

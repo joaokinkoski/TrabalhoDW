@@ -28,3 +28,5 @@ A aplicação foi desenvolvida como **SPA (Single Page Application)**, utilizand
 - Implementação do sistema de pagamento.
 - Melhoria na responsividade para dispositivos móveis.
 - Refatoração dos modais para reutilização de componentes.
+- Método para filtrar e pesquisar jogadores.
+- Agrupamento de jogadores por time ou posição.
